@@ -1,0 +1,28 @@
+{
+  "name": "jolo",
+  "version": "0.0.1",
+  "description": "Json only live once",
+  "license": "MIT",
+  "repository": "lovethesign/jolo",
+  "author": {
+    "name": "Massimo Ruggirello",
+    "email": "massimoruggirello@gmail.com",
+    "url": "github.com/Max93"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "json"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  }
+}
